@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation form</title>
+    <style>
+        .h1 {
+            background-color: brown;
+            color: white;
+        }
+        
+        .h2 {
+            color: red;
+        }
+        
+        .h3 {
+            color: orchid;
+        }
+        
+        .first {
+            color: rgb(32, 183, 52);
+        }
+        
+        .three {
+            color: rgb(205, 145, 54);
+        }
+        
+        .second {
+            color: rgb(127, 27, 87);
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <div class="h1">
+
+            <h1>Travel reservation form</h1>
+        </div>
+        <div class="h2">
+            <h3>*denotes mandotory</h3>
+        </div>
+        <div class="h3">
+            <p>Full name*:</p>
+            <input type="text" name="text" placeholder="FirstName LastName">
+            <p>Email address*:</p>
+            <input type="text" name="text" placeholder="Email_Address">
+            <p>Select Tour Package*:</p>
+            <select name="City">
+            <div class="h6">
+        <option value="Kashmir">Kashmir</option>
+    </div>
+        <option value="Jammu">Jammu</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Goa">Goa</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Leh">Leh</option>
+    
+    </select>
+            <p>Arrival date*:</p>
+            <input type="text" name="date" placeholder="dd-mm-yyyy">
+            <p>Number of Persons*:</p>
+            <input type="text" name="number" placeholder="Unknown_Type">
+            <div class="second">
+                <p>What would you want to avail?*:</p>
+            </div>
+            <label for="1">
+        <input type="checkbox" name="avail" value="Boarding" id="1">Boarding
+    </label>
+            <br>
+            <label for="2">
+        <input type="checkbox" name="avail" value="Fooding"id="2">Fooding
+    </label>
+            <br>
+            <label for="3">
+        <input type="checkbox" name="avail" value="Sight Seeing"id="3">Sight Seeing
+    </label>
+            <div class="first">
+                <p>Dicount Coupon code:</p>
+            </div>
+            <input type="text" name="coupon" value="Unknown_Type">
+            <div class="three">
+                <p>Terms and Conditions*</p>
+
+
+                <label for="6">
+    <input type="radio" name="terms" value="I agree" id="6"> I agree
+</label>
+                <label for="8">
+    <input type="radio" name="terms" value="I disagree" id="8">I disagree
+</label>
+            </div>
+            <br><br>
+            <input type="submit" name=" submit" value="Complete reservation">
+        </div>
+
+
+
+
+</body>
+
+</html>
