@@ -1,0 +1,277 @@
+/*********************-HTML FILE-*******************/
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation</title>
+    <link rel="stylesheet" href="style7.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>contact</a>
+                <div class="half-1">
+                    <ul>
+                        <li>tem</li>
+                        <li>huywh</li>
+                        <li>njsu</li>
+                        <li>hwyud</li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-clone"></i>Details</a></li>
+            <li><a href="#"><i class="fa fa-info-circle"></i>About us</a></li>
+            <div class="h2">
+
+                <input type="text" name="search" id="search here" placeholder="search here"><i class="fa fa-search"></i>
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, beat ae! Neque laboriosam ipsam quidem adipisci quaerat commodi iure repudiandae quis ex nemo, velit perferendis repellat recusandae veritatis. Ab modi numquam et molestiae explicabo non</p>
+        <div>
+
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/09/c3/33/97.jpg" alt="photos"></div>
+        <div class="h9">
+            <p> bsjkjkjkj ajxklajslx xvjhs uwsiqhis iuwi qsqj siqy sk qios, swiuoiq smqih skqhsio qh wsoi ioljlksjlaj j aljlk sahkljd ljald a ldjla jsjklaj a jdlj al; jaj ldjalkj dlajd;sjdlak;iopi qsk;ghshgsjhgshgshhgdjsjhgshgdjgjdshgdjjjhsdgjs </p>
+
+            <img src="https://www.kraftwerk.at/app/uploads/fly-images/962/reference-img-worlds-of-adventure-park-4-1920x9999.jpg">
+            <div class="h6">
+                <p>SHARM EL-SHEIKH: Atthe UN climate talks, India is learnt to have told participants that “selective singling out of sources of emissions, for either labelling them more harmful, or labelling them “green and sust ainable” even when these
+                    are sources of greenhouse gases, has no basis in the best available science”.</p>
+
+                <img src="https://static.toiimg.com/thumb/msid-47529300,imgsize-110164,width-400,resizemode-4/47529300.jpg">
+            </div>
+            <footer>
+                copyright &copy;hjgsagdk
+            </footer>
+
+
+</html>
+
+
+
+
+
+/*******************************-CSS FILE-**************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    color: rgb(105, 94, 174);
+    height: 70px;
+    border-radius: 14px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 25px 21px;
+    /* position: sticky; */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+
+.h2 {
+    padding: 10px;
+}
+
+.navbar ul .h2 {
+    border: blueviolet;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 11px 93px;
+    float: right;
+}
+
+.sm {
+    color: white;
+    background-color: red;
+    text-align: center;
+    height: 25px;
+    width: 100px;
+}
+
+.first {
+    background-color: rgb(108, 21, 21);
+    color: whitesmoke;
+    height: 500px;
+    display: inline-block;
+    width: 49%;
+}
+
+.second {
+    /* background-color: burlywood; */
+    color: black;
+    height: 500px;
+    display: inline-block;
+    width: 50%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 4px;
+    position: relative;
+    top: 320px;
+    background-attachment: scroll;
+}
+
+.container {
+    height: 1500px;
+    /* width: 500px; */
+    color: aliceblue;
+    background-size: cover;
+    text-align: start;
+    font-size: 20px;
+    font-style: oblique;
+    background-color: black;
+    background-repeat: no-repeat;
+    /* position: relative;
+    z-index: 4px; */
+    background-attachment: fixed;
+    background-image: url('uk.jpg')
+}
+
+.container img {
+    height: 200px;
+    width: 300px;
+    /* float: inline; */
+    margin: 40px;
+    border-radius: 30px;
+    position: relative;
+    left: 310px;
+    bottom: 200px;
+    /* text-align: center; */
+}
+
+.container p {
+    width: 300px;
+    text-align: center;
+}
+
+.h9 {
+    text-align: center;
+    font-style: italic;
+    font-size: 19px;
+    text-transform: uppercase;
+    width: 450px;
+}
+
+p {
+    width: 350px;
+    color: white;
+    text-align: center;
+}
+
+.h9 img {
+    height: 200px;
+    width: 300px;
+    /* float: inline; */
+    margin: 40px;
+    border-radius: 30px;
+    position: relative;
+    left: 520px;
+    bottom: 200px;
+}
+
+.h6 {
+    text-align: Left;
+    font-style: italic;
+    font-size: 19px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    /* justify-content: center; */
+    width: 300px;
+    /* direction: column; */
+}
+
+.h6 img {
+    height: 200px;
+    width: 300px;
+    /* float: inline; */
+    margin: 40px;
+    border-radius: 30px;
+    position: relative;
+    left: 330px;
+    bottom: 265px;
+    /* justify-content: center; */
+    /* direction: column; */
+}
+
+.navbar .fa {
+    margin-right: 8px;
+}
+
+.h2 i {
+    margin-left: 7px;
+    padding-top: 5px;
+}
+
+.half-1 {
+    display: none;
+}
+
+.navbar ul li:hover .half-1 {
+    display: block;
+    position: fixed;
+    background-color: orange;
+    color: white;
+}
+
+.navbar ul li:hover .half-1 ul {
+    display: block;
+    margin: 10px;
+    list-style: none;
+}
+
+.navbar ul li:hover .half-1 ul li {
+    width: 150px;
+    text-align: left;
+    margin: 8px;
+    padding: 8px;
+    list-style: none;
+    border-bottom: 1px dotted rgb(129, 17, 21);
+}
+
+.navbar ul li:hover .half-1 ul li:hover {
+    background-color: aquamarine;
+}
+
+
+/*         
+ul li {
+    list-style: none;
+} */
+
+
+
