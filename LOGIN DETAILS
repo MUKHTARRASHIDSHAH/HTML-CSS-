@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2 {
+        color: white;
+        background-color: aquamarine;
+    }
+    
+    .sub {
+        text-align: center;
+        color: azure;
+        background-color: red;
+        height: 40px;
+        width: 150px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    
+    .sub-1 {
+        text-align: center;
+        color: azure;
+        background-color: red;
+        height: 40px;
+        width: 150px;
+        border-radius: 8px;
+        font-weight: bold;
+    }
+    
+    .label {
+        /* background: blueviolet; */
+        height: 200px;
+        color: orangered;
+        padding-top: 25px;
+        padding-left: 25px;
+        font-size: 25px;
+        user-zoom: 20px;
+    }
+</style>
+
+<body>
+
+    <form>
+        <h2>Login</h2>
+        <br>
+        <div class="label">
+            <input type="username" placeholder="username" />
+            <br><br>
+            <input type="email" placeholder="email" />
+            <br><br>
+            <input type="password" placeholder="password" />
+            <br><br>
+            <button class="sub-1">Submit</button>
+        </div>
+        <!-- <input type="submit" name="submit" /> -->
+    </form>
+
+    <br>
+    <h2>GENDER</h2>
+    <div class="label">
+        <label for="1">
+     <input type="radio" name="gender" value="male" id="1">male
+    </label>
+
+        <label for="2">
+    <input type="radio" name="gender" value="female" id="2">female
+    </label>
+        <label for="3">
+    <input type="radio" name="gender" value="other" id="3">others
+    </label>
+    </div>
+
+    <br>
+    <h2>Choose your fav sport</h2>
+    <div class="label">
+        <input type="checkbox" name="sport" value="cricket"> cricket
+        <input type="checkbox" name="sport" value="baseball"> baseball
+        <input type="checkbox" name="sport" value="hocky"> hocky
+        <input type="checkbox" name="sport" value="vollyball"> vollyball
+    </div>
+
+    <br>
+    <h2>Select your city</h2>
+    <div class="label">
+        <select name="city">
+        <option value="delhi">delhi</option>
+        <option value="jammu">jammu</option>
+        <option value="kshmir">kahmir</option>
+        <option value="kshmir">bangalore</option>
+        <option value="kshmir">gbl</option>
+        <option value="kshmir">srig</option>
+        <option value="kshmir">mumbai</option>
+        <option value="kshmir">lar</option>
+        <option value="kshmir">tiptur</option>
+        </select>
+    </div>
+
+    <br><br>
+    <h2>feedback</h2>
+    <div class="label">
+        <textarea name="feedback" id="feedback" placeholder="give your valuable feedback" rows="10" cols="20">
+
+        </textarea>
+    </div>
+    <br><br>
+    <div class="label">
+        <button class="sub">Submit</button>
+    </div>
+    <!-- <input type="submit" name="submit" value="submit" /> -->
+
+
+
+</body>
+
+</html>
