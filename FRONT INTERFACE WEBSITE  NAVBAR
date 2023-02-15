@@ -1,0 +1,219 @@
+/**************************-HTML CSS-***********************/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="h1">
+                <img src="https://yt3.ggpht.com/ytc/AMLnZu87NHObZAD4pN4SJTB8YiQ--ogXi3o9PZ7CV0vY9A=s900-c-k-c0x00ffffff-no-rj"></div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#"><i class="fa fa-home"></i>HOME</a></li>
+                    <li><a href="#"><i class="fa fa-clone"></i>ABOUT</a></li>
+                    <li>
+                        <a href="#"><i class="fa fa-server"></i>SERVICE</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-phone"></i>CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" placeholder=" Type To Search ">
+                <div class="btn"><button>Search</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="h3">
+        <h2>Web Design &</h2>
+        <h1>Development</h1>
+        <h2>Course</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, eos.<br> ipsum dolor sit amet. ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="h4">
+            <button>JOIN US</button>
+        </div>
+        <!-- <section>
+            <div class="login">
+                <button>Login Here</button><br>
+                <input type="text" placeholder="Enter email here" id="Email"><br>
+                <input type="text" placeholder="Enter Password here" id="Email">
+                <div class="first"><button>Login</button>
+                </div>
+                <div>Don't have an account?</div>
+                sign up here
+
+            </div>
+        </section> -->
+
+</html>
+
+
+
+
+/************************************-CSS FILE-*************************************/
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(tree.jpg);
+    background-size: cover;
+    /* height: 1000px; */
+    background-attachment: absolute;
+    position: sticky;
+}
+
+header {
+    height: 158px;
+    /* border-radius: 4px; */
+    /* background-color: red; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    text-align: center;
+    border-radius: 5px;
+}
+
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.nav-bar ul li {
+    width: 110px;
+    margin: 40px 25px 20px 13px;
+    padding: 8px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar ul li a:hover {
+    background-color: yellowgreen;
+    color: blue;
+}
+
+.h1 img {
+    display: inline-flex;
+    margin: 20px 196px 20px 34px;
+    padding: 131px 113px 1px -4px;
+    font-size: 0px;
+    /* background-color: orange; */
+    font-style: italic;
+    text-align: center;
+    height: 110px;
+    width: 180px;
+}
+
+.search {
+    display: inline-flex;
+    margin: 10px 0px -10px 50px;
+    padding: 2px 0px 0px 5px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: orange;
+    height: 36px;
+    color: white;
+    width: 90px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.h3 {
+    margin: 90px 0px 0px 120px
+}
+
+h2 {
+    color: white;
+    font-size: 45px;
+}
+
+h1 {
+    color: orange;
+    font-size: 65px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin: 36px 0px 0px 10px;
+    display: flex;
+}
+
+.h4 {
+    display: flex;
+    align-items: center;
+    margin: 57px 0px 0px 19px;
+    padding: 2px 0px 0px 15px;
+}
+
+button {
+    background-color: orange;
+    height: 36px;
+    color: white;
+    width: 90px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login {
+    text-align: center;
+    margin: -260px 100px 0px 0px;
+}
+
+.first {
+    text-align: center;
+}
+
+section {
+    background-color: black;
+    height: 168px;
+    margin: 17px 77px 34px 9px;
+    padding: block;
+    display: list-item;
+}
+
+.nav-bar .fa {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
