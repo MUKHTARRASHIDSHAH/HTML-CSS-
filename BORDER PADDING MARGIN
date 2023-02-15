@@ -1,0 +1,73 @@
+/************-HTML FILE-*******************/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+
+<body>
+    <h1>this is a heading</h1>
+    <div class="two">
+        <p class="abc">this is a first paragraph.</p>
+        <p class="abc">this is a third paragraph.</p>
+        <p class="abc">this is second paragraph.</p>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+/********************-CSS FILE-*******************/
+
+
+.abc {
+    padding: 30px;
+    border: solid 5px blue;
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    display: inline-block;
+    background-color: lightgreen;
+    color: white;
+}
+
+.abc {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+h1 {
+    border: solid 10px red;
+    background-color: antiquewhite;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+    margin: 30px;
+}
+
+body {
+    border: solid;
+    border-color: crimson;
+    border-width: 10px;
+    color: blue;
+    padding: 30px;
+    margin: 50px;
+    position: relative;
+}
+
+
+
