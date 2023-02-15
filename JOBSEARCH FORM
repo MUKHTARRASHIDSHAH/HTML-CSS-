@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobSearch</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .h1 {
+            background-color: red;
+            color: white;
+        }
+        
+        .h2 {
+            color: red;
+        }
+        
+        .First {
+            background-color: grey;
+        }
+        
+        .h3 {
+            color: blueviolet;
+        }
+        
+        .btn {
+            text-align: center;
+            color: azure;
+            background-color: red;
+            height: 40px;
+            width: 150px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-left: 45px;
+            /* padding-left: 40px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h1">
+        <h1>JobSearch.com</h1>
+    </div>
+    <div class="h2">
+        <p>*Required Information</p>
+    </div>
+    <div class="First">
+        <h3>Basic Information</h3>
+    </div>
+    <div align=center>
+        <p style="color:brown"> Email*: <input type="text" name="text"></p>
+        <p style="color:brown"> Password*: <input type="password" name="password"></p>
+        <p style="color:brown">Retype Password*: <input type="password" name="password"></p>
+        <p style="color:brown">First Name*: <input type="text" name="text"></p>
+        <p style="color:brown">Last Name*: <input type="text" name="text"></p>
+        <p style="color:brown">Phone Number*: <input type="text" name="text"></p>
+        <p style="color:brown">Address*: <input type="text" name="text"></p>
+        <p style="color:brown">City*: <input type="text" name="text"></p>
+        <p style="color:brown">province*:
+            <select name="province">
+                <option value="Leh">Leh</option>
+                <option value="Kashmir">Kashmir</option>
+                <option value="Jammu">Jammu</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Goa">Goa</option>
+                <option value="Bangalore">Bangalore</option>
+            </select>
+        </p>
+        <p style="color:brown">Country*: <input type="text" name="text"></p>
+    </div>
+    </div>
+    <div class="First">
+        <h3>Education</h3>
+    </div>
+    <div align="center">
+        <p style="color: rgb(72, 157, 98);">School*: <input type="text" name="text"></p>
+        <p style="color: rgb(72, 157, 123);">Program*: <input type="text" name="text"></p>
+        <p style="color: rgb(72, 157, 117);">Education Level*:
+            <select name="Level">
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="M A">M A</option>
+                <option value="B A">B A</option>
+                <option value="B TECH">B TECH</option>
+            </select>
+        </p>
+        <div align="center">
+            <div class="h3">
+                <p>Education status :</p>
+            </div>
+            <p style="color: greenyellow;">
+                <label for="1">
+            <input type="radio" name="status" value="Graduated" id="1"style="color:orange">Graduated
+        </label>
+            </p>
+            <p style="color: greenyellow;">
+                <label for="2">
+            <input type="radio" name="status" value="Current Enrolled" id="2">Current Enrolled
+        </label>
+            </p>
+            <p style="color: greenyellow;">
+                <label for="3">
+            <input type="radio" name="status" value="Did Not Graduated" id="3">Did Not Graduated
+        </label>
+            </p>
+        </div>
+        <p style="color: rgb(72, 157, 105);">Graduation Date*:<input type="text" name="text"></p>
+
+    </div>
+    <div class="First">
+        <h3>Work Experience</h3>
+    </div>
+    <div align="center">
+        <p style="color:blue;">Employer : <input type="text" name="text"></p>
+        <p style="color:blue;">Job Title : <input type="text" name="text"></p>
+        <p style="color:blue;">Job Duty : <textarea name="text" name="text" rows="4" cols="15"></textarea></p>
+        <p style="color:blue;">Worked Year : <select name="year">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select></p>
+
+    </div>
+    <div class="First">
+        <h3>Attachements</h3>
+    </div>
+    <div align="center">
+        <P style="color: brown;">Attachments : <input type="submit" name="Resume" value="Resume">no file selected</P>
+    </div>
+    <div align="center">
+
+        <button class="btn">Reset</button> <button class="btn">Apply</button>
+
+
+</body>
+
+</html>
