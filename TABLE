@@ -1,0 +1,142 @@
+/****************-HTML FILE-****************/
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hello</title>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+
+<body>
+
+    <table border="10px" cellspacing="0" cellpadding="50" width="200px" height="100px">
+
+
+        <tr class="h2">
+
+
+            <th colspan="5"> STUDENT DATA</th>
+
+
+        </tr>
+
+
+        <tr class="h1">
+            <th>Name</th>
+            <th>Class</th>
+            <th>USN</th>
+            <th>email</th>
+            <th>p no</th>
+        </tr>
+        <tr div class="h3">
+            <td>mukhtar</td>
+            <td>cse</td>
+            <td>1ki19cs048</td>
+            <td>shahmukhatr654@gmail.com</td>
+            <td>9149676083</td>
+        </tr>
+        <br><br>
+
+        <tr div class="h4">
+            <td>shakti</td>
+            <td>mech</td>
+            <td>1ki19me025</td>
+            <td>shakti654@gmail.com</td>
+            <td>9149676083</td>
+        </tr>
+
+
+    </table>
+
+
+
+</body>
+
+</html>
+
+
+
+
+/**********************-CSS FILE-************************/
+
+
+.h1 {
+    border: 100px;
+    border-color: red;
+    border-style: dotted;
+    font-size: 30px;
+    font-style: italic;
+    border-width: 100px;
+    line-height: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.h2 {
+    border: 100px;
+    width: fit-content;
+    height: fit-content;
+    border-color: red;
+    border-style: dotted;
+    font-size: 30px;
+    font-style: italic;
+    border-width: 100px;
+    line-height: 20px;
+}
+
+.h3 {
+    border: 100px;
+    border-color: red;
+    width: fit-content;
+    height: fit-content;
+    border-style: dotted;
+    font-size: 25px;
+    font-style: oblique;
+    border-width: 100px;
+    line-height: 18px;
+}
+
+.h4 {
+    border: 1000px;
+    border-color: red;
+    border-style: dashed;
+    font-size: 25px;
+    font-style: oblique;
+    border-width: 100px;
+    width: fit-content;
+    height: fit-content;
+    line-height: 16px;
+}
+
+.h1,
+.h3,
+.h4,
+.h2 {
+    padding: 100px;
+    padding: 100px;
+    padding: 100px;
+    padding: 100px;
+    margin: 300px;
+    margin: 300px;
+    margin: 300px;
+    margin: 300px;
+    margin: 300px;
+}
+
+table {
+    border: solid 10px blueviolet;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 25px;
+    position: relative;
+}
+
+
