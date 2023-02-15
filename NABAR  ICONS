@@ -1,0 +1,147 @@
+/****************************-HTML FILE-*************************/
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style5.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>icons</title>
+</head>
+
+<body>
+    <div class="box">
+        <ul>
+            <li class="active">
+                <a href=""><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-clone"></i>Services</a>
+                <div class="box-1">
+                    <ul>
+                        <li><a href="">Mission</a></li>
+                        <li><a href="">Vision</a></li>
+                        <li><a href="">Team</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-users"></i>Clients</a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-angellist"></i>Investers</a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-inr"></i>Pricing</a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-edit"></i>Traning</a>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-phone"></i>Contact</a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+
+
+
+
+
+/***********************-CSS FILE-***********************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(uk.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-position: center;
+}
+
+.box {
+    background-color: green;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.box ul li {
+    /* display: inline-block; */
+    width: 120px;
+    margin: 11px;
+    padding: 10px;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.active,
+.box ul li :hover {
+    background-color: rgb(53, 136, 151);
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+.box .fa {
+    margin-right: 10px;
+}
+
+.box-1 {
+    display: none;
+}
+
+.box ul li:hover .box-1 {
+    display: block;
+    position: absolute;
+    background: rgb(50, 11, 87);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.box ul li:hover .box-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.box ul li:hover .box-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    text-align: left;
+}
+
+.box ul li:hover .box-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.box ul li:hover .box-1 ul li a:hover {
+    color: #b2ff00;
+}
+
+
+
+
+
+
+
+
+
+
