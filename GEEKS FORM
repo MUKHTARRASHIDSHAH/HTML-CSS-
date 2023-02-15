@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks</title>
+</head>
+<style>
+    .h1 {
+        color: blue;
+    }
+    
+    .h2 {
+        background-color: orangered;
+    }
+    
+    .h3 {
+        background-color: palevioletred;
+        color: white;
+    }
+    
+    .h4 {
+        color: red;
+    }
+    
+    .btn {
+        text-align: center;
+        color: azure;
+        background-color: red;
+        height: 40px;
+        width: 150px;
+        border-radius: 8px;
+        font-weight: bold;
+        margin-left: 45px;
+        /* padding-left: 40px; */
+    }
+</style>
+
+<body>
+    <div align=center>
+        <div class="h1">
+            <h1>GeeksforGeeks</h1>
+        </div>
+        <br>
+        <bor border="1">
+            <div class="h2">
+                <h3>Basic form design using HTML</h3>
+            </div>
+            <div class="h3">
+                <h5>Personal Details</h5>
+            </div>
+
+            <p style="color: brown;">First name : <input type="text"></p>
+            <p style="color: brown;">Last name : <input type="text"></p>
+            <p style="color: brown;"> Gender :
+                <label for="1">
+             <input type="radio" name="Gender" value="Male" id="1"> Male
+            </label>
+                <label for="2">
+            <input type="radio" name="Gender" value="Female" id="2"> Female
+        </label>
+                <label for="3">
+            <input type="radio" name="Gender" value="Other" id="3"> Other
+        </label>
+            </p>
+            <p style="color: brown;">Email : <input type="text"></p>
+            <p style="color: brown;">Date of Birth : <input type="text" name="DOB" placeholder="dd-mm-yyyy" calander="1-31"></p>
+            <p style="color: brown;">Address : <textarea name="address" rows="6" cols="30"></textarea></p>
+            <button class="btn">Submit</button>
+            <!-- <div class="h4" submit>
+                <input type="submit" value="Submit"></div>
+            </border> -->
+
+
+    </div>
+
+</html>
