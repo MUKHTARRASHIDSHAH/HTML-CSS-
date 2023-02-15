@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ol type="I">
+        <li> name</li>
+        <ul>
+            <li> mukhtar </li>
+        </ul>
+        <li>class</li>
+        <ul>
+            <li>cse</li>
+        </ul>
+        <li> usn</li>
+        <ul>
+            <li>1ki19cs048</li>
+        </ul>
+        <li> email</li>
+        <ul>
+            <li>shahmukhatr654@gmail.com</li>
+        </ul>
+    </ol>
+
+    <ul>
+        <li> subject</li>
+        <ol type="a">
+            <li> dbms</li>
+            <li> cp</li>
+            <li> gt</li>
+        </ol>
+        <li> chapter</li>
+        <ol type="A">
+            <li>lists</li>
+        </ol>
+        <li> chap.no</li>
+        <ol type="I">
+            <li>1-10</li>
+        </ol>
+        <li> p no</li>
+        <ol type="i">
+            <li>9149676083</li>
+        </ol>
+    </ul>
+
+</body>
+
+</html>
