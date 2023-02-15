@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .box {
+            background-color: rgb(44, 165, 44);
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            display: none;
+            /* margin: 50px 0px; */
+            height: 100%;
+        }
+        
+        @media only screen and (max-width:250px) {
+            #box-1 {
+                height: 800px;
+                background-color: aqua;
+                display: block;
+            }
+        }
+        
+        @media only screen and (min-width:250px) and (max-width:500px) {
+            #box-2 {
+                background-color: red;
+                display: block;
+                height: 600px;
+            }
+        }
+        
+        @media only screen and (min-width:500px) and (max-width:800px) {
+            #box-3 {
+                background-color: rgb(35, 23, 141);
+                display: block;
+                height: 900px;
+                /* margin: 50px 0px; */
+            }
+        }
+        
+        @media only screen and (min-width:800px) {
+            #box-3 {
+                background-color: rgb(11, 100, 45);
+                display: block;
+                height: 1000px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box-1">phone</div>
+    <div class="box" id="box-2">tablet</div>
+    <div class="box" id="box-3">laptop</div>
+    <div class="box" id="box-4">disktop</div>
+
+</body>
+
+</html>
