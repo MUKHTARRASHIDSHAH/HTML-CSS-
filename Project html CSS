@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML PROJECT</title>
+    <style>
+        .btn {
+            text-align: center;
+            background-color: red;
+            font-weight: bold;
+            color: aliceblue;
+            margin-top: 10px;
+            height: 30px;
+            width: 130px;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 style="background-color: blue; color:white;">SIGNUP</h2>
+    <input type="text" placeholder="First name"><br>
+    <input type="text" placeholder="Middle name"><br>
+    <input type="text" placeholder="Last name"><br>
+    <input type="text" placeholder="Email"><br>
+
+    <!-- <input type="password" placeholder="Password"> -->
+
+    <br>
+    <p style="color: orange;">
+        <label for="1">
+    <input type="checkbox"id="1">Terms and Conditions..
+</label>
+    </p>
+    <button class="btn">Submit</button>
+
+    <br><br>
+    <h3 style="background-color:gray;color: aliceblue;">LINKS</h3>
+    <ul>
+
+        <li>
+            <div style="color: pink;">Go to google Search bar <a href="https://www.google.com/" target="_blank">click here</a></div>
+        </li>
+        <li>
+            <div style="color: pink;">learn here html <a href="https://www.w3schools.com/" target="_blank">click here</a></div>
+        </li>
+        <li>
+            <div style="color: pink;">learn any course <a href="https://www.internshala.com/" target="_blank">click here</a></div>
+        </li>
+    </ul>
+    <br> .
+    <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/qz0aGYrrlhU?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/1PnVor36_40?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/W6NZfCO5SIk?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="300" height="200" src="https://www.youtube-nocookie.com/embed/w7ejDZ8SWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <h2 style="background-color:gray; color: aliceblue;">Table</h2>
+    <table border="1" cellpadding="5" cellspacing="1" width="500" height="300">
+        <tr>
+            <th style="background-color:aqua">HTML</th>
+            <th style="background-color:aqua">CSS</th>
+            <th style="background-color:aqua">JS</th>
+            <th style="background-color:aqua">REACT</th>
+        </tr>
+        <tr>
+            <ul>
+                <td>
+                    <li style="color: orange;">tags</li>
+                </td>
+                <td>
+                    <li style="color: orange;">colors</li>
+                </td>
+                <td>
+                    <li style="color: orange;">loops</li>
+
+                </td>
+                <td>
+                    <li style="color: orange;">JSX</li>
+
+                </td>
+
+
+            </ul>
+        </tr>
+        <tr>
+            <ul>
+                <td>
+                    <li style="color: orange;">links</li>
+                </td>
+                <td>
+                    <li style="color: orange;">border</li>
+                </td>
+                <td>
+                    <li style="color: orange;">scops</li>
+                </td>
+                <td>
+                    <li style="color: orange;">state</li>
+                </td>
+            </ul>
+        </tr>
+        <tr>
+            <ul>
+                <td>
+                    <li style="color: orange;">Loops</li>
+                </td>
+                <td>
+                    <li style="color: orange;">DevTool</li>
+                </td>
+                <td>
+                    <li style="color: orange;">Scope</li>
+                </td>
+                <td>
+                    <li style="color: orange;">Functions</li>
+                </td>
+            </ul>
+        </tr>
+        <tr>
+            <ul>
+                <td>
+                    <li style="color: orange;">JSX</li>
+                </td>
+                <td>
+                    <li style="color: orange;">Rendering</li>
+                </td>
+                <td>
+                    <li style="color: orange;">Components</li>
+                </td>
+                <td>
+                    <li style="color: orange;">State</li>
+                </td>
+            </ul>
+        </tr>
+
+        </ul>
+
+        </tr>
+    </table>
+
+    <a href="/https: html project"></a>
+
+
+</body>
+
+</html>
