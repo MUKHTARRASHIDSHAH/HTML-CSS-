@@ -1,0 +1,424 @@
+/**************************-HTML FILE-*******************************/
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasa</title>
+    <link rel="stylesheet" href="style9.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<!-- <style>
+     *{
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    body {
+        background-image: url(sky.jpg);
+        background-size: cover;
+    }
+    
+    header {
+        height: 158px;
+        border-radius: 4px;
+        /* background-color: red; */
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 142px;
+        width: 189px;
+        margin: 8px 60px 8px 19px;
+    }
+    
+    p {
+        color: white;
+        font-size: 30px;
+        margin: 18px 190px 30px -45px;
+    }
+    
+    p:hover {
+        background-color: blanchedalmond;
+        color: brown;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nasa {
+        background-color: black;
+        text-align: center;
+        border-radius: 20px;
+    }
+    
+    .nasa ul {
+        display: inline-flex;
+        list-style: none;
+        color: white;
+    }
+    
+    .nasa ul li {
+        width: 100px;
+        padding: 15px;
+        /* padding-bottom: 0px; */
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .nasa ul li a {
+        text-decoration: none;
+        color: blueviolet;
+    }
+    /* .nasa ul li a:hover {
+        color: aqua;
+        background-color: aqua;
+    } */
+    
+    .nasa ul li:hover {
+        background-color: rgb(44, 44, 57);
+        color: brown;
+    }
+    
+    input {
+        height: 30px;
+        margin-top: 20px;
+    }
+    
+</style>  -->
+
+<body>
+    <nav>
+        <div class="logo"><img src="logo.jpeg" /></div>
+        <div class="science">
+            <p>NASA SCIENCE<br />SHARE SCIENCE</p>
+        </div>
+
+        <div class="nasa">
+            <ul>
+                <li>
+                    <a href="#"><i class="fa fa-book"></i>Science</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="">discovery</a></li>
+                            <li><a href="">Exoplanets</a></li>
+                            <li><a href="">solar system</a></li>
+                            <li><a href="">Mars</a></li>
+                            <li><a href="">Our sun</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="#"><i class="fa fa-newspaper-o"></i>News</a>
+                    <div class="sub-1">
+                        <ul>
+                            <li>
+                                <a href="">nevingation</a>
+                            </li>
+
+                            <li><a href="">Exopls</a></li>
+                            <li><a href="">solar</a></li>
+                            <li><a href="">earth</a></li>
+                            <li><a href="">sun</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-search-plus"></i>Research</a>
+                    <div class="sub-2">
+                        <ul>
+                            <li><a href="">discovery</a></li>
+                            <li><a href="">black hole</a></li>
+                            <li><a href="">quantum</a></li>
+                            <li><a href="">Mars</a>
+                                <div class="h1">
+                                    <ul>
+                                        <li><a href="">b6fr</a></li>
+                                        <li><a href="">black</a></li>
+                                        <li><a href="">gases</a></li>
+                                        <li><a href="">red</a></li>
+                                        <li><a href="">sun</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="">sun</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-leanpub"></i>Learners</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-user-circle-o"></i>Involved</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-phone"></i>Contact Us</a>
+                </li>
+                <div class="search">
+                    <input type="text" placeholder="Search" id="Search" />
+                    <i class="fa fa-search"></i>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <h1></h1>
+</body>
+
+</html>
+
+
+
+
+
+/********************************-CSS FILE-********************************/
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(sky.jpg);
+    background-size: cover;
+}
+
+header {
+    height: 158px;
+    border-radius: 4px;
+    /* background-color: red; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 142px;
+    width: 189px;
+    margin: 8px 60px 8px 19px;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    margin: 18px 190px 30px -45px;
+}
+
+p:hover {
+    background-color: blanchedalmond;
+    color: brown;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.nasa {
+    background-color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.nasa ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.nasa ul li {
+    width: 172px;
+    /* padding: 19px; */
+    /* padding-bottom: 2px; */
+    font-size: 22px;
+    margin: 5px -3px 0px 0px;
+    text-decoration: none;
+}
+
+.nasa ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .nasa ul li a:hover {
+    color: aqua;
+    background-color: aqua;
+} */
+
+.nasa ul li a:hover {
+    background-color: rgb(44, 44, 57);
+    color: blue;
+}
+
+input {
+    height: 26px;
+    margin-top: 11px;
+    text-align: center;
+}
+
+i {
+    margin: 10px 8px 10px 1px;
+}
+
+i:hover {
+    background-color: grey;
+    color: rgb(11, 36, 58);
+}
+
+.sub {
+    display: none;
+}
+
+.nasa ul li:hover .sub {
+    display: block;
+    position: fixed;
+    background: rgb(50, 11, 87);
+    /* margin-top: 15px;
+    margin-left: 15px; */
+}
+
+.nasa ul li:hover .sub ul {
+    display: block;
+    list-style: none;
+    margin: 10px;
+}
+
+.nasa ul li:hover .sub ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    text-align: left;
+    display: block;
+}
+
+.nasa ul li:hover .sub ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-1 {
+    display: none;
+}
+
+.nasa ul li:hover .sub-1 {
+    display: block;
+    position: fixed;
+    background-color: lightsalmon;
+    color: black;
+    /* margin-top: 15px;
+    margin-left: 15px; */
+    align-items: center;
+}
+
+.nasa ul li:hover .sub-1 ul {
+    display: block;
+    list-style: none;
+    margin: 10px;
+}
+
+.nasa ul li:hover .sub-1 ul li {
+    width: 150px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px dotted white;
+}
+
+.nasa ul li:hover .sub-1 ul li:last-child {
+    border-bottom: none;
+}
+
+.sub-2 {
+    display: none;
+}
+
+.nasa ul li:hover .sub-2 {
+    display: block;
+    position: fixed;
+    background-color: black;
+    /* margin-top: 15px;
+    margin-left: 12px; */
+    color: lightskyblue;
+    align-items: center;
+}
+
+.nasa ul li:hover .sub-2 ul {
+    display: block;
+    list-style: none;
+    text-align: center;
+}
+
+.nasa ul li:hover .sub-2 ul li {
+    width: 155px;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px dashed green;
+}
+
+.nasa ul li:hover .sub-2 ul li:hover {
+    color: chartreuse;
+    background-color: grey;
+}
+
+.nasa ul li:hover .sub-2 ul li:last-child {
+    border-bottom: none;
+}
+
+.h1 {
+    display: none;
+}
+
+.sub-2 ul li:hover .h1 {
+    display: block;
+    position: fixed;
+    /* margin-top: 15px;
+    margin-left: 15px; */
+    background-color: rgb(9, 42, 71);
+    color: brown;
+}
+
+.sub-2 ul li:hover .h1 ul {
+    display: block;
+    list-style: none;
+    /* padding: 10px; */
+}
+
+.sub-2 ul li:hover .h1 ul li {
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid blueviolet;
+}
+
+.sub-2 ul li:hover .h1 ul li:hover {
+    color: chocolate;
+}
+
+.sub-2 ul li:hover .h1 ul li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
