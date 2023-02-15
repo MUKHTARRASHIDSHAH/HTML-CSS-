@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Interests Survey Form</title>
+    <style>
+        .h1 {
+            background-color: chartreuse;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div align="center">
+        <div class="h1">
+            <h2>Employee Interests Survey Form</h2>
+        </div>
+        <p style="color:blue">
+            Enter Your Name : <input type="text" name="text"></p>
+        <p style="color:blue">Enter Your Department : <input type="text" name="text"></p>
+        <p style="color:blue">Tell us a little about yourself : <textarea name="Description" rows="6" cols="25"></textarea></p>
+        <label for="1 ">
+         <p style="color:blueviolet">Do you exercise at home?
+            <label for="1">
+            <input type="radio" name="call" value="Yes" id="1" > Yes
+        </label>
+        <label for="2">
+            <input type="radio" name="call" value="No" id="2" > No
+        </label>
+
+        </p>
+
+        <p style="color:chocolate">How do you like to read about your favorit topics?</p>
+        <p style="color: orange;">
+            <label for="5">
+            <input type="checkbox" name="read" value="Books" id="5">Books</label>
+            <label for="6">
+            <input type="checkbox" name="read" value="Online resources"id="6">Online resources
+        </label>
+            <label for="3">
+            <input type="checkbox" name="read" value="Phone app"id="3">Phone app
+        </label>
+            <label for="4">
+            <input type="checkbox" name="read" value="Magazines"id="4">Magazines
+        </label>
+        </p>
+        <p style="color:cyan">What genre of movies do you like?
+            <select name="movies"> 
+            <option value="don">don</option>
+            <option value="don2">don2</option>
+            <option value="comedy">comedy</option>
+            <option value="goolmar">goolmar</option>
+        </select></p>
+        <p style="color: red; bottom: Submit form;">
+            <input type="submit" name="submit" value="Submit form">
+        </p>
+    </div>
+</body>
+
+</html>
